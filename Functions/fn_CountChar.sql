@@ -17,11 +17,11 @@ AS BEGIN
 
 	SET NOCOUNT ON;
 
-    DECLARE @Qtd INT
+    DECLARE @Qty INT
 
-	SELECT @Qtd = LEN(@pString) - LEN(REPLACE(@pString, @pChar,''))
+	SELECT @Qty = LEN(@pString) - LEN(REPLACE(@pString, @pChar,''))
  
-    RETURN @Qtd
+    RETURN @Qty
  
 END
 GO
