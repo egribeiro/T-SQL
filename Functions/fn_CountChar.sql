@@ -4,7 +4,7 @@ IF OBJECT_ID(N'fn_CountChar',N'FN') IS NOT NULL
 GO
 -- ===============================================================================
 -- Author: Edson Ribeiro
--- Create date: 2017/11/16
+-- Create date: 16/11/2017
 -- Description: Function return the quantity of specific character into a string.
 -- ===============================================================================
 CREATE FUNCTION [dbo].[fn_CountChar] 
