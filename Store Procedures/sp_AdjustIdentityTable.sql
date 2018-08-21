@@ -3,7 +3,7 @@ IF OBJECT_ID(N'sp_AdjustIdentityTable',N'P') IS NOT NULL
 GO
 -- ===========================================================================
 -- Author: Edson Ribeiro
--- Create date: 19/08/2017
+-- Create date: 2018/08/19
 -- Description: Sometimes after insert into table, the identity column jump 
 -- a range numbers and it to be ajusted with this procedure.
 -- ===========================================================================
@@ -25,9 +25,9 @@ BEGIN
 		DECLARE 
 			@Id1         VARCHAR(5)      = '',
 			@Id2         VARCHAR(5)      = '',
-			@SQL           NVARCHAR(MAX)   = '',
-			@Parameters    NVARCHAR(500)   = '',  
-			@Column        VARCHAR(50)     = ''
+			@SQL         NVARCHAR(MAX)   = '',
+			@Parameters  NVARCHAR(500)   = '',  
+			@Column      VARCHAR(50)     = ''
 	
 	END
 -- ============================================================================================================================================================
