@@ -23,11 +23,11 @@ BEGIN
 	BEGIN 
 	
 		DECLARE 
-			@Id1         VARCHAR(5)      = '',
-			@Id2         VARCHAR(5)      = '',
-			@SQL         NVARCHAR(MAX)   = '',
-			@Parameters  NVARCHAR(500)   = '',  
-			@Column      VARCHAR(50)     = ''
+			@Id1         VARCHAR(5)     = '',
+			@Id2         VARCHAR(5)     = '',
+			@SQL         NVARCHAR(MAX)  = '',
+			@Parameters  NVARCHAR(500)  = '',  
+			@Column      VARCHAR(50)    = ''
 	
 	END
 -- ============================================================================================================================================================
