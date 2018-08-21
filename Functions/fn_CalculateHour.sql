@@ -5,7 +5,7 @@ GO
 
 -- ===========================================================================
 -- Author: Edson Ribeiro
--- Create date: 16/11/2017
+-- Create date: 2017/11/16
 -- Description: Function return hour value of difference between two dates.
 -- ===========================================================================
 
